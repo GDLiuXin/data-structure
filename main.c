@@ -117,6 +117,7 @@ int main() {
     printf("总共有%d个元素\n", list.length);
    
     // 删除操作
+    // 删除
     Status dele = delete(&list, 1, &e);
     if (dele == OK) {
         printf("删除的元素是%d\n", e);
